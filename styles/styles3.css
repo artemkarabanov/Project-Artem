@@ -1,0 +1,110 @@
+.footer {
+  width: 100%;
+}
+.footer .containers {
+  width: 1170px;
+  margin: 0 auto;
+}
+.footer-text {
+  text-align: center;
+}
+.footer-text .footer-text__title {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer-text .footer-text__subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #86878b;
+}
+.info {
+  display: inline-block;
+  width: 49%;
+}
+.info-message {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  padding-left: 10px;
+}
+.info__one {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+  color: #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 69px;
+  padding-bottom: 16px;
+}
+.info__two {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  align-items: center;
+  color: #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+  padding-bottom: 226px;
+}
+.button {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+.button__click {
+  width: 370px;
+  height: 58px;
+  background-color: #ec7979;
+  border: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.footer-bottom {
+  background-color: black;
+  margin-top: 50px;
+  width: 100%;
+}
+.footer-bottom-img {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+  padding-top: 41px;
+}
+.footer-bottom-img__O {
+  display: inline-block;
+  margin: 0 10px 0;
+}
+.footer-bottom__subtitle {
+  text-align: center;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 27px;
+  margin-top: 32px;
+}
