@@ -1,0 +1,199 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+}
+.axit {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/image.png");
+  height: 1026px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.axit-top {
+  background-color: black;
+  height: 75px;
+}
+.axit-top-title {
+  display: inline-flex;
+  height: 100%;
+  margin-left: 150px;
+  vertical-align: top;
+  justify-content: center;
+  align-items: center;
+}
+.axit-top-navigation {
+  margin-left: 860px;
+  display: inline-block;
+}
+.axit-top-navigation-link {
+  width: 113px;
+  height: 75px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.axit-center-info {
+  width: 670px;
+  display: inline-block;
+  margin-top: 208px;
+  margin-left: 170px;
+}
+.axit-center-content {
+}
+.axit-center-title {
+  margin-bottom: 72px;
+}
+.axit-center-content__title {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 55px;
+}
+.axit-center-content__subtitle {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 42px;
+}
+.axit-center-content__click {
+  transition: 0.3s;
+  width: 270px;
+  height: 58px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 0 auto;
+  border: 2px solid white;
+  margin-top: 73px;
+  margin-bottom: 50px;
+}
+.axit-center-content__click:hover {
+  opacity: 0.5;
+}
+.axit-center-data {
+  display: inline-block;
+  width: 470px;
+  height: 450px;
+  background-color: white;
+  border-radius: 10px;
+  vertical-align: top;
+  margin-top: 208px;
+  margin-left: 30px;
+}
+.axit-center-data-title {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.axit-center-data-title__one {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #333333;
+}
+.axit-center-data-title__center {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #ec7979;
+}
+.axit-center-data__one {
+  width: 370px;
+  height: 38px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.axit-center-data__click {
+  transition: 0.3s;
+  width: 470px;
+  height: 60px;
+  background-color: #ec7979;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  border: 2px solid #ec7979;
+  vertical-align: bottom;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: 27px;
+}
+.axit-center-data__click:hover {
+  background-color: red;
+  border: 2px solid red;
+}
+.axit-footer {
+  background-color: #f8efef;
+  height: 140px;
+}
+.axit-footer-title {
+  width: 470px;
+  display: inline-block;
+  margin-left: 170px;
+}
+.axit-footer-title__one {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #333333;
+}
+.axit-footer-title__two {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #86878b;
+}
+.axit-footer-img {
+  display: inline-block;
+  margin-left: 50px;
+}
+.axit-footer-img__O {
+  display: inline-block;
+  margin: 0 30px 0;
+}

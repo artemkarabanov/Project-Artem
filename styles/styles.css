@@ -1,0 +1,62 @@
+.stylish {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.stylish-text {
+  text-align: center;
+}
+.stylish-text__title {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: white;
+  margin: 50px 0 40px;
+  padding: 50px 0 0 0;
+}
+.stylish-text__subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+.button-stylish {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+.button-stylish__click {
+  transition: 0.3s;
+  width: 370px;
+  height: 58px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 0 auto;
+  border: 2px solid white;
+  margin-top: 73px;
+  margin-bottom: 50px;
+}
+.button-stylish__click:hover {
+  opacity: 0.5;
+}

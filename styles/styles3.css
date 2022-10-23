@@ -38,27 +38,20 @@
   padding-left: 10px;
 }
 .info__one {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  align-items: center;
-  color: #bdbdbd;
+  width: 571px;
+  height: 38px;
+  border: none;
   border-bottom: 1px solid #bdbdbd;
-  margin-bottom: 69px;
-  padding-bottom: 16px;
+  outline: none;
+  margin-bottom: 50px;
 }
 .info__two {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  align-items: center;
-  color: #bdbdbd;
+  width: 571px;
+  height: 38px;
+  border: none;
   border-bottom: 1px solid #bdbdbd;
-  padding-bottom: 226px;
+  outline: none;
+  padding-bottom: 183px;
 }
 .button {
   width: 1170px;
@@ -66,6 +59,7 @@
   text-align: center;
 }
 .button__click {
+  transition: 0.3s;
   width: 370px;
   height: 58px;
   background-color: #ec7979;
@@ -80,6 +74,9 @@
   text-transform: capitalize;
   color: #ffffff;
   margin: 0 auto;
+}
+.button__click:hover {
+  background-color: red;
 }
 .footer-bottom {
   background-color: black;

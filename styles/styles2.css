@@ -89,6 +89,7 @@
   margin: 27px 25px 27px 100px;
 }
 .texts .text__click {
+  transition: 0.3s;
   width: 270px;
   height: 58px;
   background-color: #ec7979;
@@ -104,6 +105,9 @@
   color: #ffffff;
   margin: 0 330px 54px 100px;
   display: inline-block;
+}
+.texts .text__click:hover {
+  background-color: red;
 }
 .img {
   display: inline-block;
