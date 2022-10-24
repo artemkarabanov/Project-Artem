@@ -33,7 +33,7 @@
 }
 .info-message {
   display: inline-block;
-  width: 49%;
+
   vertical-align: top;
   padding-left: 10px;
 }
@@ -44,6 +44,7 @@
   border-bottom: 1px solid #bdbdbd;
   outline: none;
   margin-bottom: 50px;
+  display: inline-block;
 }
 .info__two {
   width: 571px;
@@ -52,6 +53,7 @@
   border-bottom: 1px solid #bdbdbd;
   outline: none;
   padding-bottom: 183px;
+  display: inline-block;
 }
 .button {
   width: 1170px;
