@@ -30,7 +30,6 @@
   display: flex;
   justify-content: space-around;
   padding-bottom: 60px;
-  height: 570px;
   width: 1170px;
 }
 .options-icon-one {
@@ -38,6 +37,7 @@
   display: flex;
   flex-direction: column;
   align-self: flex-end;
+  margin-top: 20px;
 }
 .options-icon-two {
   width: 370px;
@@ -105,4 +105,22 @@
   background-color: #ffffff;
   border: 2px solid #f5f5f5;
   padding: 15px 0 15px;
+}
+@media (max-width: 1200px) {
+  .options-icon {
+    width: 100%;
+  }
+}
+@media (max-width: 838px) {
+  .options-icon {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 423px) {
+  .options-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

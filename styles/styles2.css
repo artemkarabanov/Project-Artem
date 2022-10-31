@@ -9,6 +9,7 @@
   border-bottom: 1px solid #c6cbcd;
 }
 .container .tab {
+  display: flex;
 }
 .tab .tab-one {
   border-right: 1px solid #c6cbcd;
@@ -25,6 +26,7 @@
   align-items: center;
   text-transform: uppercase;
   margin-right: -4px;
+  white-space: nowrap;
 }
 .tab .tab-two {
   float: none;
@@ -39,6 +41,7 @@
   text-transform: uppercase;
   border-bottom: 1px solid #c6cbcd;
   margin-right: -4px;
+  white-space: nowrap;
 }
 .tab .tab-three {
   text-align: center;
@@ -52,6 +55,7 @@
   text-transform: uppercase;
   border-bottom: 1px solid #c6cbcd;
   margin-right: -4px;
+  white-space: nowrap;
 }
 .tab .tab-four {
   text-align: center;
@@ -65,6 +69,7 @@
   align-items: center;
   text-transform: uppercase;
   border-bottom: 1px solid #c6cbcd;
+  white-space: nowrap;
 }
 .texts {
   width: 690px;
@@ -114,6 +119,15 @@
   display: inline-block;
   width: 475px;
   height: 500px;
-  position: absolute;
   margin-left: 9px;
+}
+.wrapper {
+  display: flex;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 }

@@ -1,10 +1,14 @@
+body {
+  margin: 0;
+}
 .main {
   width: 100%;
 }
 .main .awersom {
-  width: 1170px;
   margin: 0 auto;
+  width: 1170px;
 }
+
 .main .awersom .awersom-text {
   font-family: "Raleway";
 
@@ -31,9 +35,10 @@
 
 .main .awersom .awersom__img {
   margin: 100px 0 0 0;
+  display: flex;
+  justify-content: center;
 }
 .main .awersom .awersom__img .awersom__img-one {
-  display: inline-block;
   width: 380px;
 }
 .main .awersom .awersom__img .awersom__img-one .img_o {
@@ -66,4 +71,34 @@
   line-height: 21px;
   align-items: center;
   text-align: center;
+}
+@media (max-width: 1200px) {
+  .awersom__img {
+    width: 100%;
+  }
+  .main .awersom {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media (max-width: 838px) {
+  .awersom__img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main .awersom {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media (max-width: 423px) {
+  .awersom__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .awersom {
+    margin: 0 auto;
+    width: 100%;
+  }
 }

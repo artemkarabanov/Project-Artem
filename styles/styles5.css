@@ -1,6 +1,6 @@
 .customers {
-  width: 1170px;
   margin: 0 auto;
+  width: 1170px;
 }
 .customers-text {
   text-align: center;
@@ -76,4 +76,31 @@
   text-align: center;
   margin-top: -15px;
   margin-left: -85px;
+}
+@media (max-width: 1200px) {
+  .customers-icon {
+    width: 100%;
+  }
+  .customers {
+    width: 100%;
+  }
+}
+@media (max-width: 838px) {
+  .customers-icon {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .customers {
+    width: 100%;
+  }
+}
+@media (max-width: 423px) {
+  .customers-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .customers {
+    width: 100%;
+  }
 }

@@ -7,6 +7,7 @@
 }
 .footer-text {
   text-align: center;
+  margin-top: 100px;
 }
 .footer-text .footer-text__title {
   font-family: "Raleway";
@@ -33,7 +34,6 @@
 }
 .info-message {
   display: inline-block;
-
   vertical-align: top;
   padding-left: 10px;
 }
@@ -56,8 +56,8 @@
   display: inline-block;
 }
 .button {
-  width: 1170px;
-  margin: 0 auto;
+  /* width: 1170px;
+  margin: 0 auto; */
   text-align: center;
 }
 .button__click {
@@ -107,3 +107,40 @@
   padding-bottom: 27px;
   margin-top: 32px;
 }
+.form-wrapper {
+  display: flex;
+}
+@media (max-width: 1200px) {
+  .form-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .button {
+    margin-top: 20px;
+  }
+  /* form {
+    width: 100%;
+  }
+  .footer .containers {
+    width: 100%;
+  } */
+}
+/* @media (max-width: 838px) {
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer .containers {
+    width: 100%;
+  }
+}
+@media (max-width: 423px) {
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .containers {
+    width: 100%;
+  }
+} */
