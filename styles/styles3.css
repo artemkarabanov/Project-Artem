@@ -116,10 +116,17 @@
     flex-direction: column;
     align-items: center;
   }
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    }
   .button {
     margin-top: 20px;
   }
   .footer .containers {
     width: 100%;
   }
-
+ .footer-bottom-img{
+  width: 100%;
+ }
