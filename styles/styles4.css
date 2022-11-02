@@ -109,18 +109,17 @@
 @media (max-width: 1200px) {
   .options-icon {
     width: 100%;
-  }
-}
-@media (max-width: 838px) {
-  .options-icon {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-@media (max-width: 423px) {
-  .options-icon {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
+
   }
-}
+ .options-icon-one{
+  align-self: center;
+  margin-bottom: 30px;
+ }
+ .options-icon-there{
+  align-self: center;
+  margin-top: 30px;
+ }

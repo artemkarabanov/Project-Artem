@@ -112,35 +112,14 @@
 }
 @media (max-width: 1200px) {
   .form-wrapper {
+    width: 100%;
     flex-direction: column;
     align-items: center;
   }
   .button {
     margin-top: 20px;
   }
-  /* form {
-    width: 100%;
-  }
-  .footer .containers {
-    width: 100%;
-  } */
-}
-/* @media (max-width: 838px) {
-  form {
-    display: flex;
-    flex-wrap: wrap;
-  }
   .footer .containers {
     width: 100%;
   }
-}
-@media (max-width: 423px) {
-  form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .footer .containers {
-    width: 100%;
-  }
-} */
+

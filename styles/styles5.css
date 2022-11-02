@@ -80,27 +80,13 @@
 @media (max-width: 1200px) {
   .customers-icon {
     width: 100%;
-  }
-  .customers {
-    width: 100%;
-  }
-}
-@media (max-width: 838px) {
-  .customers-icon {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .customers {
-    width: 100%;
-  }
-}
-@media (max-width: 423px) {
-  .customers-icon {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
+
   }
-  .customers {
+  .customers{
     width: 100%;
   }
-}
+

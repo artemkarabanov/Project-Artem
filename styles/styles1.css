@@ -80,25 +80,10 @@ body {
     margin: 0 auto;
     width: 100%;
   }
-}
-@media (max-width: 838px) {
   .awersom__img {
     display: flex;
-    flex-wrap: wrap;
-  }
-  .main .awersom {
-    margin: 0 auto;
-    width: 100%;
-  }
-}
-@media (max-width: 423px) {
-  .awersom__img {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
   }
-  .main .awersom {
-    margin: 0 auto;
-    width: 100%;
-  }
 }
+
